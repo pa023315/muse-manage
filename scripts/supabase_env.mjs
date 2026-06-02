@@ -20,7 +20,7 @@ export function readEnv() {
 
 export function getSupabaseConfig() {
   const env = readEnv();
-  const projectRef = env.VITE_SUPABASE_PROJECT_ID || "wxqwbwuognhebekddawd";
+  const projectRef = env.VITE_SUPABASE_PROJECT_ID || "yjjyjtmbcmveynotiuld";
   const supabaseUrl = env.VITE_SUPABASE_URL || `https://${projectRef}.supabase.co`;
   const anonKey = env.VITE_SUPABASE_PUBLISHABLE_KEY || env.SUPABASE_ANON_KEY;
 

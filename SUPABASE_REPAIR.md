@@ -2,8 +2,8 @@
 
 The frontend is wired to this Supabase project:
 
-- Project ref: `wxqwbwuognhebekddawd`
-- URL: `https://wxqwbwuognhebekddawd.supabase.co`
+- Project ref: `yjjyjtmbcmveynotiuld`
+- URL: `https://yjjyjtmbcmveynotiuld.supabase.co`
 
 The backend repair SQL lives here:
 
@@ -29,7 +29,7 @@ npm run supabase:check
 
 2. Supabase CLI
    - Log in with `supabase login`.
-   - Link the project with `supabase link --project-ref wxqwbwuognhebekddawd`.
+   - Link the project with `supabase link --project-ref yjjyjtmbcmveynotiuld`.
    - Run `supabase db push`.
 
 3. Direct Postgres connection
