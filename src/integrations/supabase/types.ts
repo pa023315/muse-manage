@@ -192,6 +192,7 @@ export type Database = {
           is_active: boolean | null
           is_favorite: boolean | null
           name: string
+          notes: string | null
           phone: string | null
           rating: number | null
           updated_at: string
@@ -209,6 +210,7 @@ export type Database = {
           is_active?: boolean | null
           is_favorite?: boolean | null
           name: string
+          notes?: string | null
           phone?: string | null
           rating?: number | null
           updated_at?: string
@@ -226,6 +228,7 @@ export type Database = {
           is_active?: boolean | null
           is_favorite?: boolean | null
           name?: string
+          notes?: string | null
           phone?: string | null
           rating?: number | null
           updated_at?: string
