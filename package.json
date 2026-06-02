@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "supabase:check": "node scripts/check_supabase_connection.mjs",
-    "supabase:repair": "node scripts/apply_supabase_repair.mjs"
+    "supabase:repair": "node scripts/apply_supabase_repair.mjs",
+    "supabase:restore-inquiries": "node scripts/restore_inquiries_from_backup.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
